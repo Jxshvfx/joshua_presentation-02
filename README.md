@@ -1,12 +1,24 @@
 # Scénarisation 
 
-test: 
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+## Idée
+
+### Concept
+
+### Objectifs
+
+### Motivations 
+
+## Scénario
+
+### Interactif
+
+### Narratif
+
+### Expérience utilisateur
+
+## Ambiance
+
+## Technologies
 
 
 
