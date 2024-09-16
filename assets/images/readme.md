@@ -1,1 +1,0 @@
-# Image Pour La Présentation
