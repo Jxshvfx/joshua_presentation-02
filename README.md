@@ -16,14 +16,14 @@ La musique est
 ### Interactif
 ```mermaid
 graph TD;
-    Utiliser Instruments-->Harpe & Piano & Drum;
-    Harpe & Piano & Drum-->Interaction avec Projection;
-    Interaction avec Projection-->Plus D'interaction?;
-    Plus D'interaction?--Oui-->Midi;
-    Plus D'interaction?--Non-->Veille;
-    Midi-->Activation Lumiere;
-    Activation Lumiere-->Veille;
-    Veille-->Utiliser Instruments;
+    A{Utiliser Instruments}-->B{Harpe} & C{Piano} & D{Drum};
+    B{Harpe} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
+    E{Interaction avec Projection}-->F{Plus D'interaction?};
+    F{Plus D'interaction?}--|Oui|-->G{Midi};
+    F{Plus D'interaction?}--|Non|-->I{Veille};
+    G{Midi}-->H{Activation Lumiere};
+    H{Activation Lumiere}-->I{Veille};
+    I{Veille}-->A{Utiliser Instruments};
 ```
 ### Narratif
 
