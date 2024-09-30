@@ -3,10 +3,10 @@
 ## Idée
 
 ### Concept
-Avoir des petites sculptures qui auront des projecteurs ainsi qu'un écran au centre. Ces projecteurs projecteront sur les sculptures, l'écran projectera un visuel et seront accompagnés par de l'audio. Ce qui sera projeté sera aussi affecter par l'audio. Celui-ci est contrôler par des instruments. Puis, un clavier midi sera au centre pour mettre plus d'effets, et des indicateurs lumières sur les côtés guideront et démontreront l'effet.
+Créer une sorte de concert personnel mais accessible au public. Celle-ci aurait des petites sculptures qui seront projeté par des projecteurs (3d Mapping) ainsi qu'un écran au centre. Ces projecteurs projecteront des visuels, l'écran projectera un visuel différent (peut être changer, différent options) et intéragiront avec l'audio. L'audio provient des instruments différents proposés (Guitare, Piano et Drum). Puis, un clavier midi sera au centre pour mettre plus d'effets, et des indicateurs lumières sur les côtés guideront et démontreront visuellement l'effet mis (s'il y a un effet qui marche, les lumières l'indiqueront).
 
 ### Objectifs
-D'interconnecter les utilisateurs avec la musique et d'illustrer les impacts que celle-ci peut avoir.
+D'interconnecter les utilisateurs avec la musique et d'illustrer les impacts que celle-ci peut avoir. De plus, on voudrait que l'interactivité et les effets soient simples à contrôler mais il faut garder la profondeur et l'impact de ceux-ci.
 
 ### Motivations 
 La musique est un média/art qui est très présent dans nos vies, mais généralement, on a pas beaucoup de chance d'intéragir physiquement avec celui-ci. Interconectado permetterait de vivre cette intéraction physique. Elle sera renforcer par les visuels et démontrera l'impact de la musique qu'il a sur l'humain. Bref, un concert personnel qui sert à nous rapprocher de la musique.
@@ -16,8 +16,8 @@ La musique est un média/art qui est très présent dans nos vies, mais généra
 ### Interactif
 ```mermaid
 graph TD;
-    A{Utiliser Instruments}-->B{Harpe} & C{Piano} & D{Drum};
-    B{Harpe} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
+    A{Utiliser Instruments}-->B{Guitare} & C{Piano} & D{Drum};
+    B{Guitare} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
     E{Interaction avec Projection}-->F{Plus D'interaction?};
     F{Plus D'interaction?}--|Oui|-->G{Midi};
     F{Plus D'interaction?}--|Non|-->I{Veille};
@@ -28,8 +28,8 @@ graph TD;
 ### Narratif
 ```mermaid
 graph TD;
-    A{Point de départ}--|Choix d'instruments|-->B{Harpe} & C{Piano} & D{Drum};
-    B{Harpe} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
+    A{Point de départ}--|Choix d'instruments|-->B{Guitare} & C{Piano} & D{Drum};
+    B{Guitare} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
     E{Interaction avec Projection}-->F{La personne veut-elle plus?};
     F{La personne veut-elle plus?}--|Oui|-->G{Utilise le clavier midi};
     F{La personne veut-elle plus?}--|Non|-->I{la personne est satisfaite};
@@ -48,9 +48,11 @@ graph TD;
 
 Pour l'ambiance générale, je cherche quelque chose qui va de normal (instruments normal) vers des effets synth, etc. Le choix d'un son "synth" ou "synthwave" serait car le son est plutot cinématique et me marque beaucoup.
 
-https://youtu.be/-ZuS0p2qRYo?t=55
+https://youtu.be/iJjRTL1xcKI?t=212
 
 https://youtu.be/iJjRTL1xcKI?t=138
+
+https://youtu.be/-ZuS0p2qRYo?t=55
 
 ## Références artistique
 Donc l’esthétique va de quelque chose plus réaliste (sans effets) vers quelque chose de plus « synth ». Le visuel va renforcer cela, lorsqu’on va vers le synth, les visuels vont être plus abstrait. Les grosses références pour le projets sont les concerts. Certains de ces concerts on des visuels attrayant ce qui est une grosse qualité que je veux pour ceci.
@@ -64,7 +66,7 @@ https://youtu.be/lrJ2x7oOE5w?si=ycnQVbG8hp6aMAc-
 ## Technologies
 
 ### Support médiatique
-Donc, il aurait quelques mp4 pour les bases des visuels, ensuite les instruments seront la source audio, et en midi il interagiront avec les autres logiciels (Touch Designer, reaper, Max) pour permettre une interaction visuelle et audiovisuelle.
+Donc, il aurait quelques mp4 pour les bases des visuels, ensuite les instruments seront la source audio, et en midi il interagiront avec les autres logiciels (Touch Designer, reaper, Max, Qlc ou SoundSwitch) pour permettre une interaction visuelle et audiovisuelle.
 
 ### Matériel
 
@@ -77,6 +79,7 @@ Donc, il aurait quelques mp4 pour les bases des visuels, ensuite les instruments
 - Ordinateur
 - Controlleur Midi
 - Fils nécessaire pour connecter les éléments entre eux.
+- Speakers
 
 #### Instruments
 - Akai MPK Mini Plus 37-key Keyboard
