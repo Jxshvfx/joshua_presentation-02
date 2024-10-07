@@ -33,8 +33,8 @@ graph TD;
     A{Point de départ}--|Choix d'instruments|-->B{Guitare} & C{Piano} & D{Drum};
     B{Guitare} & C{Piano} & D{Drum}-->E{Interaction avec Projection};
     E{Interaction avec Projection}-->F{La personne veut-elle plus?};
-    F{La personne veut-elle plus? (visuel ou effets)}--|Oui|-->G{Utilise le clavier midi};
-    F{La personne veut-elle plus? (visuel ou effets)}--|Non|-->I{la personne est satisfaite};
+    F{La personne veut-elle plus? visuel ou effets}--|Oui|-->G{Utilise le clavier midi};
+    F{La personne veut-elle plus? visuel ou effets}--|Non|-->I{la personne est satisfaite};
     G{Utilise le clavier midi}-->H{La personne ajoute des effets/change visuel};
     H{La personne ajoute des effets/change visuel}--> I{la personne est satisfaite} & J{la personne est impressionner} & K{La personne expérimente plus} & L{La personne quitte};
 ```
