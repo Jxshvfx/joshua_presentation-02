@@ -1,4 +1,4 @@
-# Interconectado 
+# Interconnecté
 
 ## Idée
 
