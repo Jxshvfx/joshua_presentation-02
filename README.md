@@ -97,6 +97,7 @@ Différents Logiciels seront utilisé pour que les projections, les instruments 
 - After Effects (Pour les visuels de bases de l'écran)
 - QLC+ ou SoundSwitch (Pour les lumières et l'intéractivité avec celle-ci)
 - Reaper ou Max (Pour la détection d’audio des instruments, et les effets sur celle-ci)
+- Blender / Maya (Pour les bases de visuels 3D, objets, etc.)
 
 Ceci sont des suggestions, il faudrait faire des tests pour confirmer.
 Le réseau de communication serait majoritairement midi car celle-ci est faite pour la détection d’audio d’instruments musicales.
